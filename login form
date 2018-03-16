@@ -1,2 +1,82 @@
-troyan
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SoftUni Blog</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="script/jquery-3.3.1.js"></script>
+    <script src="script/bootstrap.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">SoftUni Blog</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="indexlogged.html">Register</a></li>
+                    <li><a href="indexlogged.html">Login</a></li>
+                </ul>
+
+            </div>
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</header>
+<main>
+    <p>Login</p>
+    <div class="container modal-footer">
+        <form class="form-horizontal">
+            <fieldset>
+
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">Email</label>
+                    <div class="col-sm-4">
+                        <input type="text"class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">Password</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-6 col-sm-6-offset-6">
+                        <button type="reset" class="btn btn-default">Cansel</button>
+                        <button type="reset" class="btn btn-primary">Register</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+                <footer>
+                    <div class="pull-right">
+                        <a class="btn btn-default btn-xs" xref="#">Read more &raquo;</a>
+                    </div>
+                </footer>
+            </article>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="container modal-footer">
+        <p>&copy; 2018-Softwere University Fondation</p>
+    </div>
+
+</footer>
+</body>
 
