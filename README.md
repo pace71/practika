@@ -1,2 +1,1 @@
-# practika
-opit
+Remont na proekta
